@@ -14,10 +14,10 @@ const OverviewComponent = ({ income, expense, addTransection }) => {
       {isShow && <TransActionsForm addTransection={addTransection} setIsShow={setIsShow} />}
       <div className="reasultSection">
         <div className="expenseBox">
-          Expense <span style={{color:"red"}}>{expense} $</span>
+          Expense <span style={{color:"red"}}>$ {expense}</span>
         </div>
         <div className="expenseBox">
-          Income <span>{income} $</span>
+          Income <span>$ {income}</span>
         </div>
       </div>
     </>

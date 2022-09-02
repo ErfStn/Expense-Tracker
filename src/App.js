@@ -4,7 +4,7 @@ import ExpenseApp from "./components/ExpenseApp";
 function App() {
   return (
     <div className="App">
-      <h2>Expense App</h2>
+      <h2>Expense Tracker</h2>
       <ExpenseApp />
     </div>
   );

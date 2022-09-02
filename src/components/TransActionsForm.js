@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 const TransActionsForm = ({ addTransection, setIsShow }) => {
   const [formValues, setFormValues] = useState({
     type: "expense",
-    amount: '0',
+    amount: 0,
     desc: "",
   });
   const changeHandler = (e) => {
@@ -11,7 +11,7 @@ const TransActionsForm = ({ addTransection, setIsShow }) => {
   };
   const submitHandler = (e) => {
     e.preventDefault();
-    if (formValues.amount > 0 ) {
+    if (formValues.amount > 0) {
       addTransection(formValues);
     }
     setIsShow(false);
