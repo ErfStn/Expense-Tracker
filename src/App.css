@@ -1,127 +1,127 @@
 .App {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
-  margin-top: 20px;
-  padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	overflow-x: hidden;
 }
 
-.App h1 {
-  margin-bottom: 30px;
+.App h2 {
+	margin: 20px 0;
+	color: #5b21b6;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 25rem;
-  background-color: #fff;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 22rem;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 1rem;
 }
-.navBar{
-  width: 30rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
+.navBar {
+	width: 30rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
 }
-.headerSection{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 25px;
+.headerSection {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 25px;
 }
-.reasultSection{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 15px;
+.reasultSection {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 15px;
 }
-.expenseBox{
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-direction: column;
-  padding: 5px 10px;
-  width: 130px;
-  height: 60px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+.expenseBox {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	flex-direction: column;
+	padding: 5px 10px;
+	width: 130px;
+	height: 60px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
 }
-.expenseBox span{
-  font-weight: 600;
-  color: green;
+.expenseBox span {
+	font-weight: 600;
+	color: green;
 }
-.btn{
-  outline: none;
-  border: 1px solid #6d28d9;
-  border-radius: 5px;
-  color: #6d28d9;
-  background-color: #fff;
-  padding: 5px 10px;
-  cursor: pointer;
+.btn {
+	outline: none;
+	border: 1px solid #6d28d9;
+	border-radius: 5px;
+	color: #6d28d9;
+	background-color: #fff;
+	padding: 5px 10px;
+	font-weight: bold;
+	cursor: pointer;
 }
-.primary{
-  border: none;
-  color: #fff;
-  background-color: #6d28d9;
-  padding: 10px 15px;
-
+.primary {
+	border: none;
+	color: #fff;
+	background-color: #6d28d9;
+	padding: 10px 15px;
 }
-.cancel{
-  color: red;
-  border: 1px solid red;
-  background-color: #fff;
+.cancel {
+	color: red;
+	border: 1px solid red;
+	background-color: #fff;
 }
-.formStyle{
-  display: flex;
-  justify-content: space-between;
-  flex-direction: column;
-  height: 170px;
-  margin-bottom: 30px;
+.formStyle {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 170px;
+	margin-bottom: 30px;
 }
-.formStyle input{
-  outline: none;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 10px 15px;
+.formStyle input {
+	outline: none;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 10px 15px;
 }
-.formStyle input[type="radio"]{
-margin-left: 10px;
-cursor: pointer;
-
+.formStyle input[type="radio"] {
+	margin-left: 10px;
+	cursor: pointer;
 }
-.radioBox{
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
+.radioBox {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 }
-.radioBox label{
-  margin-left: 3px;
-  cursor: pointer;
+.radioBox label {
+	margin-left: 3px;
+	cursor: pointer;
 }
-.transAction{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 5px;
-  background-color: #f3f4f6;
-  padding: 15px;
-  margin-top: 15px;
-font-weight: bold;
-border-right: 3px solid green;
+.transAction {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 5px;
+	background-color: #f3f4f6;
+	padding: 15px;
+	margin-top: 15px;
+	font-weight: bold;
+	border-right: 3px solid green;
 }
-input.searchBox{
-  width: 100%;
-  margin: 15px 0;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  padding: 15px;
-  outline: none;
+input.searchBox {
+	width: 100%;
+	margin: 15px 0;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	padding: 15px;
+	outline: none;
 }
-input.searchBox:focus{
-  border: 2px solid #6d28d9;
+input.searchBox:focus {
+	border: 2px solid #6d28d9;
 }
